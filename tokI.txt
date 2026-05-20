@@ -1,0 +1,30 @@
+struct stat {
+    dev_t     st_dev;     // Device ID
+    ino_t     st_ino;     // Inode number (unique file ID)
+    mode_t    st_mode;    // File type and permissions
+    nlink_t   st_nlink;   // Number of hard links
+    uid_t     st_uid;     // Owner's user ID
+    gid_t     st_gid;     // Owner's group ID
+    dev_t     st_rdev;    // Device ID (if special file)
+    off_t     st_size;    // File size in bytes
+    blksize_t st_blksize; // Block size for filesystem I/O
+    blkcnt_t  st_blocks;  // Number of 512B blocks allocated
+    time_t    st_atime;   // Last access time
+    time_t    st_mtime;   // Last modification time
+    time_t    st_ctime;   // Last status change time
+};
+
+printf("%d %ld %d %d %d %d %d %ld %ld %ld %ld %ld %ld\n",
+           (int)info.st_dev,
+           (long)info.st_ino,
+           (int)info.st_mode,
+           (int)info.st_nlink,
+           (int)info.st_uid,
+           (int)info.st_gid,
+           (int)info.st_rdev,
+           (long)info.st_size,
+           (long)info.st_blksize,
+           (long)info.st_blocks,
+           (long)info.st_atime,
+           (long)info.st_mtime,
+           (long)info.st_ctime);

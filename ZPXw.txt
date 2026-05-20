@@ -1,0 +1,44 @@
+struct stat {
+    dev_t     st_dev;     // Device ID
+    ino_t     st_ino;     // Inode number (unique file ID)
+    mode_t    st_mode;    // File type and permissions
+    nlink_t   st_nlink;   // Number of hard links
+    uid_t     st_uid;     // Owner's user ID
+    gid_t     st_gid;     // Owner's group ID
+    dev_t     st_rdev;    // Device ID (if special file)
+    off_t     st_size;    // File size in bytes
+    blksize_t st_blksize; // Block size for filesystem I/O
+    blkcnt_t  st_blocks;  // Number of 512B blocks allocated
+    time_t    st_atime;   // Last access time
+    time_t    st_mtime;   // Last modification time
+    time_t    st_ctime;   // Last status change time
+};
+
+printf("%d %ld %d %d %d %d %d %ld %ld %ld %ld %ld %ld\n",
+           (int)info.st_dev,
+           (long)info.st_ino,
+           (int)info.st_mode,
+           (int)info.st_nlink,
+           (int)info.st_uid,
+           (int)info.st_gid,
+           (int)info.st_rdev,
+           (long)info.st_size,
+           (long)info.st_blksize,
+           (long)info.st_blocks,
+           (long)info.st_atime,
+           (long)info.st_mtime,
+           (long)info.st_ctime);
+
+printf("%lu ", (unsigned long)info.st_dev);     // CORRECT: %lu for dev_t
+printf("%lu ", (unsigned long)info.st_ino);     // CORRECT: %lu for ino_t  
+printf("%o ", info.st_mode);                    // CORRECT: %o for mode_t
+printf("%lu ", (unsigned long)info.st_nlink);   // CORRECT: %lu for nlink_t
+printf("%u ", info.st_uid);                     // CORRECT: %u for uid_t
+printf("%u ", info.st_gid);                     // CORRECT: %u for gid_t
+printf("%lu ", (unsigned long)info.st_rdev);    // CORRECT: %lu for dev_t
+printf("%ld ", (long)info.st_size);             // CORRECT: %ld for off_t
+printf("%ld ", (long)info.st_blksize);          // CORRECT: %ld for blksize_t
+printf("%ld ", (long)info.st_blocks);           // CORRECT: %ld for blkcnt_t
+printf("%ld ", (long)info.st_atime);            // CORRECT: %ld for time_t
+printf("%ld ", (long)info.st_mtime);            // CORRECT: %ld for time_t
+printf("%ld\n", (long)info.st_ctime);           // CORRECT: %ld for time_t

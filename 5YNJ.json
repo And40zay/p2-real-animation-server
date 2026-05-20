@@ -1,0 +1,17 @@
+{
+    "license": "MIT",
+    "author": "Jake Daniel Mayaka Walker",
+    "name": "neural-encoder",
+    "description": "Neural network based message encoder and decoder",
+    "main": "jdeploy-bundle/EncoderDecoder.jar",
+    "version": "1.0.0",
+    "jdeploy": {
+        "fallbackToUniversal": false,
+        "generateLegacyBundles": false,
+        "publishTargets": [],
+        "javaVersion": "25",
+        "title": "Neural Message Encoder/Decoder",
+        "platformBundlesEnabled": false,
+        "downloadPage": {"platforms": ["default"]}
+    }
+}

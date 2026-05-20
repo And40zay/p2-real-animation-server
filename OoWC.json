@@ -1,0 +1,127 @@
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+    "trailing-spaces.includeEmptyLines": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.detectJdksAtStart": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.maxConcurrentBuilds": 8,
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "maven.executable.path": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
+    "java.import.gradle.home": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+        },
+        {
+            "name": "JavaSE-25",
+            "path": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+            "default": true
+        }
+    ],
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "env": {
+                "JAVA_HOME": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+            },
+            "args": [
+                "--rcfile",
+                "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+            ]
+        },
+        "JavaSE-17 LTS": {
+            "overrideName": true,
+            "env": {
+                "JAVA_HOME": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+            ]
+        },
+        "JavaSE-21 LTS": {
+            "overrideName": true,
+            "env": {
+                "JAVA_HOME": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+            ]
+        },
+        "JavaSE-25 LTS": {
+            "overrideName": true,
+            "env": {
+                "JAVA_HOME": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+            },
+            "path": "bash",
+            "args": [
+                "--rcfile",
+                "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "JavaSE-25 LTS",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+        }
+    ],
+    "java.import.gradle.java.home": "/home/jake/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "redhat.telemetry.enabled": true,
+    "jdk.telemetry.enabled": true,
+    "jdk.jdkhome": "/home/jake/Desktop/JAVA_PROJECTS/oracleJdk-25",
+    "workbench.editor.empty.hint": "hidden",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

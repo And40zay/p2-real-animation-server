@@ -1,0 +1,17 @@
+{
+  "name": "neural-encoder",
+  "version": "1.0.0",
+  "description": "Neural network message encoder/decoder",
+  "author": "Jake Daniel Mayaka Walker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/And40zay/AutoEncoder"
+  },
+  "jdeploy": {
+    "jar": "EncoderDecoder.jar",
+    "title": "Neural Message Encoder/Decoder",
+    "javaVersion": "17",
+    "publishTo": "github"
+  }
+}

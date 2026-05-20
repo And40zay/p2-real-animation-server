@@ -1,0 +1,16 @@
+{
+  "name": "neural-encoder",
+  "version": "1.0.0",
+  "description": "Neural network based message encoder and decoder",
+  "main": "EncoderDecoder.jar",
+  "author": "Jake Daniel Mayaka Walker",
+  "license": "MIT",
+  "jdeploy": {
+    "jar": true,
+    "title": "Neural Message Encoder/Decoder",
+    "javaVersion": "17",
+    "jdk": false,
+    "generateLegacyBundles": false,
+    "javafx": false
+  }
+}

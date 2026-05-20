@@ -1,0 +1,24 @@
+{
+    "license": "MIT",
+    "author": "Jake Daniel Mayaka Walker",
+    "name": "and40zay-neural-encoder-app",
+    "description": "Neural network based message encoder and decoder",
+    "repository": {"url": "https://github.com/And40zay/AutoEncoder.git"},
+    "version": "1.0.0",
+    "jdeploy": {
+        "title": "Neural Message Encoder",
+        "generateLegacyBundles": false,
+        "singleton": true,
+        "fallbackToUniversal": false,
+        "publishTargets": [{
+            "name": "github: github",
+            "type": "GITHUB",
+            "url": "https://github.com/And40zay/AutoEncoder.git"
+        }],
+        "javaVersion": "17",
+        "jar": "EncoderDecoder.jar",
+        "title": "Neural Message Encoder/Decoder",
+        "platformBundlesEnabled": false,
+        "downloadPage": {"platforms": ["default"]}
+    }
+}
